@@ -1,1 +1,54 @@
+# === Python virtual environments ===
+venv/
+.venv/
+env/
+ENV/
+Lib/
+Include/
+Scripts/
 
+# === Bytecode files ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Jupyter Notebook checkpoints ===
+.ipynb_checkpoints/
+
+# === VS Code settings ===
+.vscode/
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === Git large file warnings ===
+*.dll
+*.lib
+*.exe
+*.so
+*.dylib
+
+# === Environment files / secrets ===
+.env
+*.env
+secrets.txt
+
+# === Package distributions ===
+*.egg-info/
+dist/
+build/
+
+# === Logs ===
+*.log
+
+# === Dataset / models (optional) ===
+*.csv
+*.zip
+*.tar.gz
+*.pth
+*.pt
+*.h5
+rag_compare
+vector_store\index.faiss
+vector_store\index.pkl
