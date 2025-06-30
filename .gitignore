@@ -50,5 +50,3 @@ build/
 *.pt
 *.h5
 rag_compare
-vector_store\index.faiss
-vector_store\index.pkl
